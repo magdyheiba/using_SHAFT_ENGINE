@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure",
+  "buildOrder" : 115,
+  "buildName" : "GitHub Actions Run #2104364851",
+  "buildUrl" : "https://github.com/magdyheiba/using_SHAFT_ENGINE/actions/runs/2104364851",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/115/"
+} ]

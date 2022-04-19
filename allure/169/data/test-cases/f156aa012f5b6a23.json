@@ -1,0 +1,454 @@
+{
+  "uid" : "f156aa012f5b6a23",
+  "name" : "sampleTestCase",
+  "fullName" : "tests.cli.demo.cliTest.sampleTestCase",
+  "historyId" : "eea1882afc28f6537fff1cddb4dc325",
+  "time" : {
+    "start" : 1650350321657,
+    "stop" : 1650350321674,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1650350293497,
+      "stop" : 1650350294327,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1650350293647,
+        "stop" : 1650350293652,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6574f477c6cca7b5",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "6574f477c6cca7b5.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "cb20056cea7720b3",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "cb20056cea7720b3.properties",
+      "type" : "text/plain",
+      "size" : 394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"ls\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1650350321673,
+        "stop" : 1650350321673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce01a07f560f6d61",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "ce01a07f560f6d61.txt",
+        "type" : "text/plain",
+        "size" : 131
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "55"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"ls\" | Exit Status: \"0\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, LICENSE\nREADME.md\nallure-results\ndocker-compose_native.yml\ndocker-compose_zalenium.yml\nextent-reports\npom.xml\nreadMeImgs\nsrc\ntarget]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion Passed: Demoing local terminal actions",
+      "time" : {
+        "start" : 1650350321673,
+        "stop" : 1650350321674,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "56"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Demoing local terminal actions"
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected [pom.xml] and Actual [LICENSE\nREADME.md\nallure-results\ndocker-compose_native.yml\ndocker-compose_zalenium.yml\nextent-reports\npom.xml\nreadMeImgs\nsrc\ntarget]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7f52ceafd79fdbeb",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: sampleTestCase",
+      "source" : "7f52ceafd79fdbeb.txt",
+      "type" : "text/plain",
+      "size" : 1241
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1650350321686,
+      "stop" : 1650350321939,
+      "duration" : 253
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1650350321687,
+        "stop" : 1650350321687,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "57"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1650350321703,
+        "stop" : 1650350321703,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb77f77aa42feed9",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220419-063841",
+        "source" : "fb77f77aa42feed9.csv",
+        "type" : "text/csv",
+        "size" : 342
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "58"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220419-063841, java.io.ByteArrayInputStream@544b0bd2]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "293ffae4ef787a4e",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220419-063841",
+      "source" : "293ffae4ef787a4e.txt",
+      "type" : "text/plain",
+      "size" : 30190
+    }, {
+      "uid" : "673b49c52cc04005",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "673b49c52cc04005.html",
+      "type" : "text/html",
+      "size" : 755153
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.cli.demo.cliTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.cli.demo.cliTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sampleTestCase"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.cli.demo.cliTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az121-458"
+  }, {
+    "name" : "thread",
+    "value" : "3340@fv-az121-458.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 146,
+        "unknown" : 0,
+        "total" : 146
+      },
+      "items" : [ {
+        "uid" : "707df10b68be71ef",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/168//#testresult/707df10b68be71ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650334907860,
+          "stop" : 1650334907872,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "c3ede4181f3e5181",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/167//#testresult/c3ede4181f3e5181",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650307214417,
+          "stop" : 1650307214435,
+          "duration" : 18
+        }
+      }, {
+        "uid" : "b19f52f949037d51",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/166//#testresult/b19f52f949037d51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650286438013,
+          "stop" : 1650286438035,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "92e2088f4fcdfa4c",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/165//#testresult/92e2088f4fcdfa4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650263904806,
+          "stop" : 1650263904821,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "61d085f5fe457271",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/164//#testresult/61d085f5fe457271",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650248752014,
+          "stop" : 1650248752032,
+          "duration" : 18
+        }
+      }, {
+        "uid" : "ebb7f8cd9bca340c",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/163//#testresult/ebb7f8cd9bca340c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650220539442,
+          "stop" : 1650220539453,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "5c3fbb72251ad3bb",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/162//#testresult/5c3fbb72251ad3bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650199747878,
+          "stop" : 1650199747893,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "241c651b78d8cfc4",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/161//#testresult/241c651b78d8cfc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650177383383,
+          "stop" : 1650177383395,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "7315c331b61002b9",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/160//#testresult/7315c331b61002b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650161123923,
+          "stop" : 1650161123934,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "91a486cf44fbd7cf",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/159//#testresult/91a486cf44fbd7cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650134204667,
+          "stop" : 1650134204677,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "bdf36275fbb41d0e",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/158//#testresult/bdf36275fbb41d0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650113372461,
+          "stop" : 1650113372471,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "f5e8f608810973f7",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/157//#testresult/f5e8f608810973f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650091009165,
+          "stop" : 1650091009181,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "d1c0df3ec422cb76",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/156//#testresult/d1c0df3ec422cb76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650074281640,
+          "stop" : 1650074281651,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "9d4f6cfccfa08449",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/155//#testresult/9d4f6cfccfa08449",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650047873612,
+          "stop" : 1650047873626,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "44ee2c81569f3c06",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/154//#testresult/44ee2c81569f3c06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650027067133,
+          "stop" : 1650027067153,
+          "duration" : 20
+        }
+      }, {
+        "uid" : "19f9913f6c9137b1",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/153//#testresult/19f9913f6c9137b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650004701820,
+          "stop" : 1650004701832,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "cbded96687af009a",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/152//#testresult/cbded96687af009a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649989174851,
+          "stop" : 1649989174865,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "e565468a08e3096f",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/150//#testresult/e565468a08e3096f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649961317653,
+          "stop" : 1649961317666,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "2bcf8fde5f992dce",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/149//#testresult/2bcf8fde5f992dce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649940948133,
+          "stop" : 1649940948144,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "7f036355d540d7df",
+        "reportUrl" : "https://magdyheiba.github.io/using_SHAFT_ENGINE/allure/148//#testresult/7f036355d540d7df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649918284342,
+          "stop" : 1649918284369,
+          "duration" : 27
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f156aa012f5b6a23.json",
+  "parameterValues" : [ ]
+}

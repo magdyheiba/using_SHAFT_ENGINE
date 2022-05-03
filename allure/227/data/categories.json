@@ -1,0 +1,137 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Assertion [ValidateElementMatches] FAILED. Expected [Element should match the reference screenshot] and Actual [FALSE]. Comparison Type [EXACT_OPENCV]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed",
+        "uid" : "5da051030e8c8995",
+        "parentUid" : "a4b07d2fe682e3e43f58b6bbf1eb6d5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651582886419,
+          "stop" : 1651582886798,
+          "duration" : 379
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4b07d2fe682e3e43f58b6bbf1eb6d5f"
+    }, {
+      "name" : "Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "searchForQueryAndAssertFirstResultTextIsCorrect",
+        "uid" : "fd2aebb2c9880c3a",
+        "parentUid" : "36f771086daca37e576c8f54ca78e2e8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651582891202,
+          "stop" : 1651582894025,
+          "duration" : 2823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36f771086daca37e576c8f54ca78e2e8"
+    }, {
+      "name" : "Assertion [ValidateEquals] FAILED. Expected [MohabMohie] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "searchForQueryAndAssertFirstResultTextIsCorrect",
+        "uid" : "79065965a1cc848f",
+        "parentUid" : "ab225c3efa9697d821bd8bd14f8e852f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651582899371,
+          "stop" : 1651582901409,
+          "duration" : 2038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab225c3efa9697d821bd8bd14f8e852f"
+    }, {
+      "name" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+      "children" : [ {
+        "name" : "beforeClass",
+        "uid" : "3f7884c4bebb2560",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651582901643,
+          "stop" : 1651582901643,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeClass",
+        "uid" : "37bd1ab201674f57",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651582901668,
+          "stop" : 1651582901668,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeClass",
+        "uid" : "4b2a2a8f9c84dac4",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651582901689,
+          "stop" : 1651582901689,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeClass",
+        "uid" : "f975c19f8c6a8a5d",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651582903773,
+          "stop" : 1651582903774,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cf878649e8dacea607ed6d8ff7b1a2f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az128-846', ip: '10.1.0.139', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1022-azure', java.version: '17.0.3'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "d695e111c454b7d7",
+        "parentUid" : "3fccdd333f00196b077b2d288621d3f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651582903743,
+          "stop" : 1651582903743,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fccdd333f00196b077b2d288621d3f6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

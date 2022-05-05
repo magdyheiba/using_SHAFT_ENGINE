@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	[8 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @05-05-2022 18:37:29.0004 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @05-05-2022 18:37:29.0704 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT: Unified Test Automation Engine - GitHub]. @05-05-2022 18:37:30.0059 PM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @05-05-2022 18:37:30.0059 PM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [MohabMohie] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @05-05-2022 18:37:30.0059 P

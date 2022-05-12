@@ -1,0 +1,120 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "searchForQueryAndAssertFirstResultTextIsCorrect",
+        "uid" : "6b886961e42c246a",
+        "parentUid" : "36f771086daca37e576c8f54ca78e2e8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652380898441,
+          "stop" : 1652380901211,
+          "duration" : 2770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36f771086daca37e576c8f54ca78e2e8"
+    }, {
+      "name" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+      "children" : [ {
+        "name" : "beforeClass",
+        "uid" : "f32f28a870b9848b",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652380901435,
+          "stop" : 1652380901435,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeClass",
+        "uid" : "caf393410286250c",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652380901457,
+          "stop" : 1652380901457,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeClass",
+        "uid" : "3de0f01945e521c6",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652380901483,
+          "stop" : 1652380901483,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeClass",
+        "uid" : "d2c8bf4792e79706",
+        "parentUid" : "0cf878649e8dacea607ed6d8ff7b1a2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652380908550,
+          "stop" : 1652380908550,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cf878649e8dacea607ed6d8ff7b1a2f"
+    }, {
+      "name" : "Assertion [ValidateEquals] FAILED. Expected [MohabMohie] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "searchForQueryAndAssertFirstResultTextIsCorrect",
+        "uid" : "1ffcef4de8f40f40",
+        "parentUid" : "ab225c3efa9697d821bd8bd14f8e852f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652380906368,
+          "stop" : 1652380908318,
+          "duration" : 1950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab225c3efa9697d821bd8bd14f8e852f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az82-427', ip: '10.1.0.26', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1022-azure', java.version: '17.0.3'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "a50863a53fe26a2",
+        "parentUid" : "e42a9fa03b70f3ffba7071d95c26132e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652380916532,
+          "stop" : 1652380916532,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e42a9fa03b70f3ffba7071d95c26132e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

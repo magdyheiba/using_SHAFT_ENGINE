@@ -1,9 +1,0 @@
-
-################################################################################################################################################
-Starting Execution:	[5 out of 23] test cases in the current suite
-Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.navigateToGoogleHomeAndAssertPageTitle]
-################################################################################################################################################
-[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @17-07-2022 18:36:09.0509 PM
-[ReportManager] Assertion Passed: Asserting that the page title is Google @17-07-2022 18:36:10.0156 PM
-[ReportManager] Successfully created attachment [Screenshot - 1658082969745_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_passed] @17-07-2022 18:36:10.0175 PM
-[ReportManager] Assertion [ValidateBrowserAttribute] PASSED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @17-07-2022 18:36:10.0175 P

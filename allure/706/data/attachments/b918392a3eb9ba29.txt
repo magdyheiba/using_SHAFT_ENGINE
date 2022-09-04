@@ -1,8 +1,0 @@
-
-################################################################################################################################################
-Starting Execution:	[16 out of 23] test cases in the current suite
-Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
-################################################################################################################################################
-[ReportManager] Element Action [IsElementDisplayed] successfully performed. @30-08-2022 03:10:34.0610 AM
-[ReportManager] Assertion Passed: Asserting that the Google logo is displayed @30-08-2022 03:10:34.0616 AM
-[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @30-08-2022 03:10:34.0620 A

@@ -1,0 +1,27 @@
+
+################################################################################################################################################
+Starting Execution:	[23 out of 23] test cases in the current suite
+Test Method:		[tests.api.users.UserData.validateUserEmail]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @24-09-2022 13:00:20.0738 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @24-09-2022 13:00:20.0743 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @24-09-2022 13:00:20.0744 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://jsonplaceholder.typicode.com/users" | Content Type: "*/*" | Response Time: "727ms"]. @24-09-2022 13:00:21.0819 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @24-09-2022 13:00:21.0820 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @24-09-2022 13:00:22.0088 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected and Actual values are attached. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @24-09-2022 13:00:22.0088 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected Value] @24-09-2022 13:00:22.0089 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Value] @24-09-2022 13:00:22.0089 PM
+[ReportManager] API Action [GetResponseJSONValueAsList] successfully performed. With the following test data [$]. @24-09-2022 13:00:22.0105 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0135 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [email]. @24-09-2022 13:00:22.0156 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Sincere@april.biz] and Actual [Sincere@april.biz]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @24-09-2022 13:00:22.0156 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0182 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0199 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0213 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0232 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0249 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0264 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0281 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0296 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @24-09-2022 13:00:22.0311 P

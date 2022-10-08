@@ -1,0 +1,11 @@
+
+################################################################################################################################################
+Starting Execution:	[9 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @08-10-2022 02:34:30.0050 AM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @08-10-2022 02:34:31.0738 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT: Unified Test Automation Engine - GitHub]. @08-10-2022 02:34:31.0862 AM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @08-10-2022 02:34:32.0571 AM
+[ReportManager] Successfully created attachment [Screenshot - 1665196472430_searchForQueryAndAssertFirstResultTextIsCorrect_ValidateElementAttribute_failed] @08-10-2022 02:34:32.0579 AM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @08-10-2022 02:34:32.0579 A
